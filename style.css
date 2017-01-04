@@ -1,0 +1,152 @@
+body
+{
+	/*background: radial-gradient(at top, #0099CC, #CCFF5F 130%);*/
+	background: #000;
+	padding: 0;
+}
+
+#wrapper
+{
+	width: 90%;
+	background-color: #99CCCC;
+	border-left: 6px solid #fff;
+	border-right: 6px solid #fff;
+	border-top: 2px solid #fff;
+	border-radius: 30px;
+	overflow:auto; 
+	margin: 20px auto; 
+}
+
+header
+{
+	width: 100%; 
+	height: 100px;
+	font-family: 'Just Me Again Down Here', cursive;
+	font-size: 60px;
+}
+header p
+{
+	margin:40px;
+	text-align: center;
+}
+
+nav
+{
+	width: 100%;
+	height: 55px;
+	background-color: #fff;
+}
+
+nav ul li
+{
+	list-style: none;
+	text-align: center;
+	float: left;
+	width: 15%;
+	margin-left:6%;
+	margin-right:6%;
+	padding: 5px 3%;
+
+
+}
+nav ul li h4
+{
+	font-size: 25px;
+	margin: 5px 0;
+
+}
+nav ul li a
+{
+	background-color: #7C7C7C;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px 4px rgba(0,0,0,0.25);
+
+}
+nav ul li a:hover
+{
+	color: #000;
+	letter-spacing: 2px;
+}
+main img
+{
+	width: 20%;
+	float: left;
+	margin: 15px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 20px 4px rgba(0,0,0,0.25);
+	
+}
+
+main p
+{
+	text-indent: 50px;
+	line-height: 25px;
+	font-size: 20px;
+	text-align: justify;
+	margin: 15px 30px;
+}
+main h1
+{
+	text-align: center;
+	font-family: 'Just Me Again Down Here', cursive;
+	font-size: 50px;
+	margin: 5px;
+
+}
+main a
+{
+	color: #7c7063;
+}
+h2
+{
+	text-align: center;
+	margin: 30px;
+	font-size: 30px;
+}
+
+.circle
+{
+	width: 150px;
+	height: 150px;
+	background-color: #fff;
+	border-radius: 100%;
+	text-align: center;
+	margin: 40px;
+	float: left; 
+	box-shadow: 0px 0px 20px 4px rgba(0,0,0,0.25);
+}
+.circle:hover
+{
+	background-color: #000;
+	color: #fff;
+	letter-spacing: 3px;
+}
+.circle h3
+{
+	font-size: 20px;
+	margin: 60px auto;
+	font-family: 'Just Me Again Down Here', cursive;
+}
+
+footer
+{
+	clear: both;
+	text-align: center;
+	background-color: #fff;
+	font-size: 20px;
+	height: 55px;
+	padding-top: 15px; 
+}
+footer a
+{
+	text-decoration:none;
+	color: #7c7063;
+}
+footer a:hover
+{
+	color: #99CCCC;
+	letter-spacing: 2px;
+}
